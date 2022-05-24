@@ -1,8 +1,26 @@
+
+.site-header{
+	 height: 60px;
+    width: 100%;
+    background-color: #eedbff;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+	.site-branding {
+	 float: left;
+    margin: 5px 15px;
+    height:50px;
+    width:50px;
+	}
+}
 .main-navigation {
 	display: block;
 	width: 100%;
 
+   
 	ul {
+		float: right ;
+   
 		display: none;
 		list-style: none;
 		margin: 0;
@@ -53,6 +71,8 @@
 		position: relative;
 
 		&:hover > a,
+	
+		
 		&.focus > a {
 		}
 	}
@@ -60,6 +80,18 @@
 	a {
 		display: block;
 		text-decoration: none;
+		display: inline-block;
+    color: #000;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin: 20px 20px ;
+	&:hover{
+		color: darkmagenta;
+	}
+	&:active{
+		color:cornflowerblue;
+	}
+}
 	}
 
 	.current_page_item > a,
@@ -67,7 +99,7 @@
 	.current_page_ancestor > a,
 	.current-menu-ancestor > a {
 	}
-}
+
 
 /* Small menu. */
 .menu-toggle,
