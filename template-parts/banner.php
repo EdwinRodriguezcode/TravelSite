@@ -1,4 +1,5 @@
-<section class="bannerSection" >
+
+    <section class="bannerSection" >
         <div class="bannerImg">
      <!-- This is the start of banner section -->
            <div class="bannerCopy">
